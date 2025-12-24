@@ -26,12 +26,12 @@ p span {
 
 /* Linklerin rengini beyaz yapmak için */
 .navbar-nav .nav-link {
-    color: var(--font-color-1) !important;
+    color: var(--font-color-1) ;
 }
 
 /* Aktif olan linkin rengi için */
 .navbar-nav .nav-link.active {
-    color: var(--font-color-1) !important;
+    color: var(--font-color-1) ;
 }
 
 /* Tüm metinlerin beyaz olmasını garantiye almak için */
