@@ -14,4 +14,12 @@
   var photos = GLightbox({
     selector: '#photos .photo'
   });
+
+  var comment = new Swiper('#comments .swiper', {
+    pagination: {
+        enabled: true,
+        clickable: true,
+        type: 'bullets',
+    }
+  });
 })();
